@@ -1,0 +1,10 @@
+numpy>=1.26
+pillow>=10.0
+diffusers @ git+https://github.com/huggingface/diffusers.git@v0.36.0
+transformers==4.53.2
+accelerate==1.9.0
+safetensors==0.5.3
+huggingface-hub==0.34.3
+peft==0.17.0
+protobuf>=3.20.0,!=4.24.0
+sentencepiece>=0.1.99

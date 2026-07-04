@@ -1,0 +1,128 @@
+[
+  {
+    "image_id": "test_008",
+    "prompt": "turn the offroad vehicle right 30.0 degrees, enlarge the offroad vehicle by a factor of 1.50, move the offroad vehicle right",
+    "image": "combine/test_008/src.png",
+    "src_box": "combine/test_008/src_rgb_box.png",
+    "tgt_box": "combine/test_008/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_047",
+    "prompt": "turn the toy car left 90.0 degrees, enlarge the toy car by a factor of 1.20, move the toy car right",
+    "image": "combine/test_047/src.png",
+    "src_box": "combine/test_047/src_rgb_box.png",
+    "tgt_box": "combine/test_047/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_049",
+    "prompt": "turn the toy airplane left 30.0 degrees, shrink the toy airplane by a factor of 0.80, move the toy airplane left and down",
+    "image": "combine/test_049/src.png",
+    "src_box": "combine/test_049/src_rgb_box.png",
+    "tgt_box": "combine/test_049/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_116",
+    "prompt": "turn the park bench right 180.0 degrees, shrink the park bench by a factor of 0.50, move the park bench left",
+    "image": "combine/test_116/src.png",
+    "src_box": "combine/test_116/src_rgb_box.png",
+    "tgt_box": "combine/test_116/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_001",
+    "prompt": "keep the domestic animal orientation unchanged, keep the domestic animal size unchanged, move the domestic animal right",
+    "image": "translate/test_001/src.png",
+    "src_box": "translate/test_001/src_rgb_box.png",
+    "tgt_box": "translate/test_001/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_003",
+    "prompt": "keep the coffee mug orientation unchanged, keep the coffee mug size unchanged, move the coffee mug left",
+    "image": "translate/test_003/src.png",
+    "src_box": "translate/test_003/src_rgb_box.png",
+    "tgt_box": "translate/test_003/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_007",
+    "prompt": "keep the hanging plant orientation unchanged, keep the hanging plant size unchanged, move the hanging plant right",
+    "image": "translate/test_007/src.png",
+    "src_box": "translate/test_007/src_rgb_box.png",
+    "tgt_box": "translate/test_007/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_009",
+    "prompt": "keep the robot character orientation unchanged, keep the robot character size unchanged, move the robot character left",
+    "image": "translate/test_009/src.png",
+    "src_box": "translate/test_009/src_rgb_box.png",
+    "tgt_box": "translate/test_009/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_115",
+    "prompt": "keep the wine glass orientation unchanged, keep the wine glass size unchanged, move the wine glass left and down",
+    "image": "translate/test_115/src.png",
+    "src_box": "translate/test_115/src_rgb_box.png",
+    "tgt_box": "translate/test_115/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_014",
+    "prompt": "keep the foot stool orientation unchanged, enlarge the foot stool by a factor of 1.20, keep the foot stool position unchanged",
+    "image": "scale/test_014/src.png",
+    "src_box": "scale/test_014/src_rgb_box.png",
+    "tgt_box": "scale/test_014/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_044",
+    "prompt": "keep the red roses orientation unchanged, shrink the red roses by a factor of 0.80, keep the red roses position unchanged",
+    "image": "scale/test_044/src.png",
+    "src_box": "scale/test_044/src_rgb_box.png",
+    "tgt_box": "scale/test_044/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_045",
+    "prompt": "keep the wooden chair orientation unchanged, shrink the wooden chair by a factor of 0.50, keep the wooden chair position unchanged",
+    "image": "scale/test_045/src.png",
+    "src_box": "scale/test_045/src_rgb_box.png",
+    "tgt_box": "scale/test_045/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_125",
+    "prompt": "keep the beer bottle orientation unchanged, enlarge the beer bottle by a factor of 1.20, keep the beer bottle position unchanged",
+    "image": "scale/test_125/src.png",
+    "src_box": "scale/test_125/src_rgb_box.png",
+    "tgt_box": "scale/test_125/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_130",
+    "prompt": "keep the beverage glass orientation unchanged, enlarge the beverage glass by a factor of 1.50, keep the beverage glass position unchanged",
+    "image": "scale/test_130/src.png",
+    "src_box": "scale/test_130/src_rgb_box.png",
+    "tgt_box": "scale/test_130/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_005",
+    "prompt": "turn the toy car left 60.0 degrees, keep the toy car size unchanged, keep the toy car position unchanged",
+    "image": "rotate/test_005/src.png",
+    "src_box": "rotate/test_005/src_rgb_box.png",
+    "tgt_box": "rotate/test_005/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_016",
+    "prompt": "turn the flower vase right 60.0 degrees, keep the flower vase size unchanged, keep the flower vase position unchanged",
+    "image": "rotate/test_016/src.png",
+    "src_box": "rotate/test_016/src_rgb_box.png",
+    "tgt_box": "rotate/test_016/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_043",
+    "prompt": "turn the wooden chair right 180.0 degrees, keep the wooden chair size unchanged, keep the wooden chair position unchanged",
+    "image": "rotate/test_043/src.png",
+    "src_box": "rotate/test_043/src_rgb_box.png",
+    "tgt_box": "rotate/test_043/gt_rgb_box.png"
+  },
+  {
+    "image_id": "test_094",
+    "prompt": "turn the green leaf right 180.0 degrees, keep the green leaf size unchanged, keep the green leaf position unchanged",
+    "image": "rotate/test_094/src.png",
+    "src_box": "rotate/test_094/src_rgb_box.png",
+    "tgt_box": "rotate/test_094/gt_rgb_box.png"
+  }
+]
