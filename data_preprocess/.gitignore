@@ -1,0 +1,7 @@
+third_party/
+outputs/
+**/*.pth
+**/checkpoints/
+**/weights/
+__pycache__/
+*.pyc
