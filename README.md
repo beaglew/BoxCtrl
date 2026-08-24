@@ -61,27 +61,6 @@ python infer.py \
   --dtype bf16
 ```
 
-## 📚 Citation
-
-```bibtex
-@inproceedings{10.1145/3799902.3811169,
-author = {Wang, Feifei and Yang, Shiyuan and Li, Xiaoyu and Liao, Jing},
-title = {BoxCtrl: 3D-Aware Visual Prompting for Geometric Image Editing},
-year = {2026},
-isbn = {9798400725548},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3799902.3811169},
-doi = {10.1145/3799902.3811169},
-booktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},
-articleno = {164},
-numpages = {11},
-keywords = {controllable image generation, image editing},
-location = {
-},
-series = {SIGGRAPH Conference Papers '26}
-}
-```
 
 ## 📄 License
 
