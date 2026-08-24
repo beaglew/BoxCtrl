@@ -1,15 +1,16 @@
-# [BoxCtrl: 3D-Aware Visual Prompting for Geometric Image Editing](https://arxiv.org/abs/2606.23270) (SIGGRAPH 2026).
+# BoxCtrl: 3D-Aware Visual Prompting for Geometric Image Editing (SIGGRAPH 2026).
+[![arXiv](https://img.shields.io/badge/arXiv-2606.23270-b31b1b.svg)](https://arxiv.org/abs/2606.23270)
+[![website](https://img.shields.io/badge/Website-Gitpage-4CCD99)](https://beaglew.github.io/BoxCtrl-site/)
 
-![alt text](assets/teaser.png)
+![title](./assets/teaser.png)
 
 Feifei Wang $^{1}$, Shiyuan Yang $^{1}$, Xiaoyu Li $^{2}$, Jing Liao $^{1}$
 
 <font size="1"> $^1$ City University of Hong Kong, Hong Kong SAR
 <font size="1"> $^2$ Tencent </font>
 
-## Abstract:
-As instruction-based editing models and multimodal large language models advance, diverse image editing tasks have become feasible. However, achieving precise and consistent geometric image editing, such as translating, scaling, and rotating in 3D space, remains a major challenge. In this work, we introduce BoxCtrl, a 3D-aware visual prompting framework. Unlike text-only or coarse 2D-guided approaches, our method introduces informative RGB 3D bounding boxes projected onto 2D images as visual prompts. The three orthogonal faces of each box are painted with distinct RGB colors, simultaneously encoding position, size, and orientation to provide a compact, intuitive in-context visual example. The key to BoxCtrl's success lies in these well-designed bounding boxes, which decouple geometric control from appearance control. This enables the model to learn consistent correspondences between faces of the same color in the latent space, leading to a precise understanding of geometric intentions and accurate editing results. We introduce a two-stage training paradigm: Supervised Fine-Tuning (SFT) followed by Reinforcement Learning (RL). To address paired data scarcity, we construct a large-scale synthetic dataset for SFT, equipping the model with fundamental editing capabilities. To bridge the synthetic-to-real domain gap, we incorporate an online RL stage leveraging unpaired real-world data. Guided by a reward function evaluating geometric accuracy and visual fidelity, our SFT-RL strategy significantly enhances geometric precision while maintaining photorealistic quality. Extensive experiments demonstrate that BoxCtrl achieves state-of-the-art performance across translation, rotation, scaling, and composite editing tasks.
-
+## Overview
+BoxCtrl enables precise image translation, scaling, and rotation through RGB 3D bounding boxes as visual prompts. By encoding 3D geometry into intuitive color-coded boxes, BoxCtrl provides fine-grained control over object position, size, and orientation beyond text-based editing. A two-stage SFT-RL training strategy further improves geometric accuracy and real-world editing quality.
 
 
 ## ⚙️ Setup
@@ -63,11 +64,22 @@ python infer.py \
 ## 📚 Citation
 
 ```bibtex
-@article{wang2026boxctrl,
-  title={BoxCtrl: 3D-Aware Visual Prompting for Geometric Image Editing},
-  author={Wang, Feifei and Yang, Shiyuan and Li, Xiaoyu and Liao, Jing},
-  journal={arXiv preprint arXiv:2606.23270},
-  year={2026}
+@inproceedings{10.1145/3799902.3811169,
+author = {Wang, Feifei and Yang, Shiyuan and Li, Xiaoyu and Liao, Jing},
+title = {BoxCtrl: 3D-Aware Visual Prompting for Geometric Image Editing},
+year = {2026},
+isbn = {9798400725548},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3799902.3811169},
+doi = {10.1145/3799902.3811169},
+booktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},
+articleno = {164},
+numpages = {11},
+keywords = {controllable image generation, image editing},
+location = {
+},
+series = {SIGGRAPH Conference Papers '26}
 }
 ```
 
