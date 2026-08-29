@@ -2,7 +2,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2606.23270-b31b1b.svg)](https://arxiv.org/abs/2606.23270)
 [![website](https://img.shields.io/badge/Website-Gitpage-4CCD99)](https://beaglew.github.io/BoxCtrl-site/)
 
-![title](./assets/teaser.png)
+![title](./assets/teaser.jpg)
 
 Feifei Wang $^{1}$, Shiyuan Yang $^{1}$, Xiaoyu Li $^{2}$, Jing Liao $^{1}$
 
