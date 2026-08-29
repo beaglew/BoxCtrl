@@ -4,10 +4,6 @@
 
 ![title](./assets/teaser.jpg)
 
-Feifei Wang $^{1}$, Shiyuan Yang $^{1}$, Xiaoyu Li $^{2}$, Jing Liao $^{1}$
-
-<font size="1"> $^1$ City University of Hong Kong, Hong Kong SAR
-<font size="1"> $^2$ Tencent </font>
 
 ## Overview
 BoxCtrl enables precise image translation, scaling, and rotation through RGB 3D bounding boxes as visual prompts. By encoding 3D geometry into intuitive color-coded boxes, BoxCtrl provides fine-grained control over object position, size, and orientation beyond text-based editing. A two-stage SFT-RL training strategy further improves geometric accuracy and real-world editing quality.
