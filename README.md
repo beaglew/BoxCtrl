@@ -74,3 +74,19 @@ We thank the following open-source projects and research works that made BoxCtrl
 - **[Flow-GRPO](https://github.com/yifan123/flow_grpo)** — online RL training framework for flow matching models
 - **[Edit-R1](https://github.com/PKU-YuanGroup/Edit-R1)** — reinforcement learning framework for instruction-based image editing
 - **[HuggingFace](https://huggingface.co/)** for the [diffusers](https://github.com/huggingface/diffusers) library
+
+## 📜 Citation
+
+If you find our work helpful, please consider giving a star 🌟 and citation 📝
+
+```BibTeXw
+@inproceedings{10.1145/3799902.3811169,
+author = {Wang, Feifei and Yang, Shiyuan and Li, Xiaoyu and Liao, Jing},
+title = {BoxCtrl: 3D-Aware Visual Prompting for Geometric Image Editing},
+year = {2026},
+booktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},
+articleno = {164},
+numpages = {11},
+series = {SIGGRAPH Conference Papers '26}
+}
+```
